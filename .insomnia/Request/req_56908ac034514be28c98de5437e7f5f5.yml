@@ -1,0 +1,21 @@
+_id: req_56908ac034514be28c98de5437e7f5f5
+type: Request
+parentId: fld_c0b48e61e56846358a12123c9bd24cd3
+modified: 1652149074743
+created: 1652149056599
+url: "{{ _.host }}/scales/6279cb007759e19e935845f8"
+name: remove scale
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1652149056599
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

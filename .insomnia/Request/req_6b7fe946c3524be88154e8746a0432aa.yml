@@ -1,0 +1,21 @@
+_id: req_6b7fe946c3524be88154e8746a0432aa
+type: Request
+parentId: fld_c0b48e61e56846358a12123c9bd24cd3
+modified: 1652148787713
+created: 1652148037418
+url: "{{ _.host }}/scales/6279c941af792ae44b5b5641"
+name: get scale
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1652148037418
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

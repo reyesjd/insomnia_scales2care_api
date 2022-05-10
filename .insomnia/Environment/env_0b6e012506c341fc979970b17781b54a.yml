@@ -1,0 +1,14 @@
+_id: env_0b6e012506c341fc979970b17781b54a
+type: Environment
+parentId: env_2d949f0c746ae4d3140c63c7dda3a7a26776dfea
+modified: 1652068403814
+created: 1652068388253
+name: Scales2Care
+data:
+  host: http://localhost:3000/api
+dataPropertyOrder:
+  "&":
+    - host
+color: null
+isPrivate: false
+metaSortKey: 1652068388253

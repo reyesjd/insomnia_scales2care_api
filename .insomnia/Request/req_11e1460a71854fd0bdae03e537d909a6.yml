@@ -1,0 +1,32 @@
+_id: req_11e1460a71854fd0bdae03e537d909a6
+type: Request
+parentId: fld_8422eed28cfb43a886e95333524f49f4
+modified: 1652147326324
+created: 1652069385396
+url: "{{ _.host }}/scalesResults"
+name: add scale result
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"user_id": "62789249025129f91b10f034", 
+    	"name": "MINIMENTAL", 
+    	"sphere": "PSICOLOGICO", 
+    	"total": 15
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5316bfbee71e496f87c5958e176d8b0d
+authentication: {}
+metaSortKey: -1652069385396
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

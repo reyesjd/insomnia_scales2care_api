@@ -1,0 +1,30 @@
+_id: req_167feba75f0b48d9ada024a1597a4c3a
+type: Request
+parentId: fld_8beb1558bec94769aa3d8e9336c47ea9
+modified: 1652069458514
+created: 1652068350330
+url: "{{ _.host }}/user"
+name: create user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"gender": "F",
+    	"age": 25
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_532692f59e9149e3bf4c6a542b9370eb
+authentication: {}
+metaSortKey: -1652068350330
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
