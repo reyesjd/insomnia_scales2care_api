@@ -1,7 +1,7 @@
 _id: req_e266a9d2d7ec438fbdcd65b0f993c9fb
 type: Request
 parentId: fld_c0b48e61e56846358a12123c9bd24cd3
-modified: 1652148920927
+modified: 1652234166244
 created: 1652148078737
 url: "{{ _.host }}/scales"
 name: add scale
@@ -11,177 +11,202 @@ body:
   mimeType: application/json
   text: >
     {
-      "name": "Barthel",
-      "description": "Escala de barthel",
-      "sphere": "PSICOLOGICO",
+      "name": "Yesavage",
+      "description": "Escala de Yesavage",
+      "sphere": "SOCIAL",
       "questions": [
         {
-          "question": "Comer",
+          "question": "¿Está básicamente satisfecho con su vida?",
           "answers": [
             {
-              "answer": "Puede comer de forma independiente",
-              "value": 10
+              "answer": "Si",
+              "value": 1
             },
             {
-              "answer": "Necesita ayuda para comer.",
-              "value": 5
-            },
-            {
-              "answer": "Dependiente. Utiliza sonda.",
+              "answer": "No",
               "value": 0
             }
           ]
         },
         {
-          "question": "Lavarse",
+          "question": "¿Ha dejado abandonadas muchas actividades e intereses?",
           "answers": [
             {
-              "answer": "Entra y sale solo del baño y ejecuta las acciones requeridas.",
-              "value": 5
+              "answer": "Si",
+              "value": 0
             },
             {
-              "answer": "Dependiente.",
+              "answer": "No",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "question": " ¿Siente que su vida está vacía?",
+          "answers": [
+            {
+              "answer": "Si",
+              "value": 0
+            },
+            {
+              "answer": "No",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "question": "¿Se siente a menudo aburrido? ",
+          "answers": [
+            {
+              "answer": "Si",
+              "value": 0
+            },
+            {
+              "answer": "No",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "question": "¿Está de buen talante la mayor parte del tiempo?",
+          "answers": [
+            {
+              "answer": "Si",
+              "value": 1
+            },
+            {
+              "answer": "No",
               "value": 0
             }
           ]
         },
         {
-          "question": "Vestirse",
+          "question": "¿Tiene miedo de que le suceda algo malo? ",
           "answers": [
             {
-              "answer": "Capaz de ponerse y quitarse la ropa, abotonarse o atarse los zapatos.",
-              "value": 10
+              "answer": "Si",
+              "value": 0
             },
             {
-              "answer": "Necesita ayuda.",
-              "value": 5
+              "answer": "No",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "question": "¿Se siente feliz la mayor parte del tiempo?",
+          "answers": [
+            {
+              "answer": "Si",
+              "value": 1
             },
             {
-              "answer": "Dependiente.",
+              "answer": "No",
               "value": 0
             }
           ]
         },
         {
-          "question": "Arreglarse",
+          "question": "¿Se siente a menudo sin esperanza?",
           "answers": [
             {
-              "answer": "Independiente para lavarse la cara, las manos, peinarse, afeitarse o maquillarse.",
-              "value": 5
+              "answer": "Si",
+              "value": 0
             },
             {
-              "answer": "Dependiente.",
+              "answer": "No",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "question": "¿Prefiere quedarse en casa más que salir a hacer cosas nuevas?",
+          "answers": [
+            {
+              "answer": "Si",
+              "value": 0
+            },
+            {
+              "answer": "No",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "question": "¿Piensa que tiene más problemas de memoria que la mayoría?",
+          "answers": [
+            {
+              "answer": "Si",
+              "value": 0
+            },
+            {
+              "answer": "No",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "question": "¿Cree que es maravilloso estar vivo? ",
+          "answers": [
+            {
+              "answer": "Si",
+              "value": 1
+            },
+            {
+              "answer": "No",
               "value": 0
             }
           ]
         },
         {
-          "question": "Deposiciones",
+          "question": "¿Piensa que no vale para nada tal como está ahora?",
           "answers": [
             {
-              "answer": "Continencia normal.",
-              "value": 10
+              "answer": "Si",
+              "value": 0
             },
             {
-              "answer": "Ocasionalmente algún episodio de incontinencia o necesita ayuda para administrarse supositorios.",
-              "value": 5
+              "answer": "No",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "question": " ¿Piensa que su situación es desesperada?",
+          "answers": [
+            {
+              "answer": "Si",
+              "value": 0
             },
             {
-              "answer": "Incontinencia",
+              "answer": "No",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "question": "¿Se siente lleno de energía?",
+          "answers": [
+            {
+              "answer": "Si",
+              "value": 1
+            },
+            {
+              "answer": "No",
               "value": 0
             }
           ]
         },
         {
-          "question": "Micción",
+          "question": "¿Cree que la mayoría de la gente está mejor que usted?",
           "answers": [
             {
-              "answer": "Continencia normal o es capaz de cuidarse la sonda si tiene una puesta.",
-              "value": 10
-            },
-            {
-              "answer": "Un episodio diario como máximo de incontinencia, o necesita ayuda para cuidar de la sonda.",
-              "value": 5
-            },
-            {
-              "answer": "Incontinencia",
+              "answer": "Si",
               "value": 0
-            }
-          ]
-        },
-        {
-          "question": "Usar el wc",
-          "answers": [
-            {
-              "answer": "Independiente para ir al cuarto de aseo, quitarse y ponerse la ropa, y limpiarse.",
-              "value": 10
             },
             {
-              "answer": "Necesita ayuda para ir al retrete, pero se limpia solo.",
-              "value": 5
-            },
-            {
-              "answer": "Dependiente.",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "question": "Transferencias",
-          "answers": [
-            {
-              "answer": "Independiente para ir del sillón a la cama.",
-              "value": 15
-            },
-            {
-              "answer": "Mínima ayuda física o supervisión para hacerlo.",
-              "value": 10
-            },
-            {
-              "answer": "Necesita gran ayuda, pero es capaz de mantenerse sentado solo.",
-              "value": 5
-            },
-            {
-              "answer": "Dependiente.",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "question": "Deambulación",
-          "answers": [
-            {
-              "answer": "Independiente, camina solo (puede utilizar bastón) 50 metros.",
-              "value": 15
-            },
-            {
-              "answer": "Necesita ayuda física (de un tercero o andador) o supervisión para caminar 50 metros.",
-              "value": 10
-            },
-            {
-              "answer": "Independiente en silla de ruedas sin ayuda.",
-              "value": 5
-            },
-            {
-              "answer": "Dependiente.",
-              "value": 0
-            }
-          ]
-        },
-        {
-          "question": "Subir/bajar escaleras",
-          "answers": [
-            {
-              "answer": "Independiente para bajar y subir escaleras.",
-              "value": 10
-            },
-            {
-              "answer": "Necesita ayuda física o supervisión para hacerlo.",
-              "value": 5
-            },
-            {
-              "answer": "Dependiente.",
-              "value": 0
+              "answer": "No",
+              "value": 1
             }
           ]
         }
@@ -190,31 +215,21 @@ body:
         "results": [
           {
             "min": 0,
+            "max": 5,
+            "result": "Normal"
+          },
+          {
+            "min": 6,
+            "max": 9,
+            "result": "Depresión moderada"
+          },
+          {
+            "min": 10,
             "max": 15,
-            "result": "Total"
-          },
-          {
-            "min": 20,
-            "max": 35,
-            "result": "Grave o Severa"
-          },
-          {
-            "min": 40,
-            "max": 55,
-            "result": "Moderada"
-          },
-          {
-            "min": 60,
-            "max": 95,
-            "result": "Leve"
-          },
-          {
-            "min": 96,
-            "max": 100,
-            "result": "Independiente"
+            "result": ""
           }
         ],
-        "titles": ["Resultado", "Grado de Dependencia"]
+        "titles": ["Resultado", "Depresión"]
       }
     }
 parameters: []
